@@ -26,6 +26,40 @@
         android:layout_marginBottom="30dp"/>
 
     <TextView
+        android:id="@+id/minNumb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/min"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="5dp"/>
+
+    <SeekBar
+        android:id="@+id/minSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:min="0"
+        android:max="40"
+        android:progress="0"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/maxNumb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/max"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="5dp"/>
+
+    <SeekBar
+        android:id="@+id/maxSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:min="60"
+        android:max="100"
+        android:progress="100"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
